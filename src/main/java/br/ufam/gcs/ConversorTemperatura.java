@@ -12,6 +12,6 @@ public class ConversorTemperatura {
 
     /** Converte uma temperatura de Fahrenheit para Celsius: C = (F - 32) * 5/9. */
     public double fahrenheitParaCelsius(double fahrenheit) {
-        return (fahrenheit - 32.0) * 5.0 / 9.0;
+        return (fahrenheit - 32.0) * 9.0 / 5.0; // ERRO PROPOSITAL: fracao invertida
     }
 }
